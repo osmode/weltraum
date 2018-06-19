@@ -3,7 +3,9 @@ Log and display GPS data from USB GPRS module
 on Waveshare 2.9in ePaper display
 
 Author: Omar Metwally, MD
+```
         omar@analog.earth
+```
 
 ## Usage
 ### Get USB GPRS module path
