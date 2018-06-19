@@ -41,14 +41,15 @@ sudo vim .bashrc
     python /home/pi/Desktop/weltraum/main.py 
 ```
 ### 6. Display GPS coordinates on ePaper module
-Connect ePaper display as follows.
+Install pre-requisite Python libraries:
+* SPI 
+* PIL
 
-  * Libraries required: 
-        SPI library of Python
-        PIL (Python Imaging Library) library
+Connect ePaper display as follows:
 
-  == Raspberry Pi GPIO Pin map ==
 ```
+Raspberry Pi GPIO Pin map 
+
  +-----+-----+---------+------+---+---Pi 3---+---+------+---------+-----+-----+
  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
  +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
