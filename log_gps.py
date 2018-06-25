@@ -46,7 +46,7 @@ while True:
                 if len(str(longitude))*len(str(latitude))*len(str(altitude))*len(str(vel)) > 0:
                         print('Writing coordinates, altitude, and velocity to file...')
                         filehandle = open('/home/breitkopf/Desktop/way.csv', 'a')
-                        filehandle.write(str(longitude)+', '+str(latitude)+', '+str(altitude)+', '+str(time())+'\n')
+                        filehandle.write(str(longitude)+', '+str(latitude)+', '+str(altitude)+', '+str(velocity)+', '+str(time())+'\n')
                         filehandle.close()
                         longitude = ''
                         latitude = ''
